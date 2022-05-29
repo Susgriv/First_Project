@@ -1,0 +1,46 @@
+@mixin font($font-size:22px, $line-height:24px, $font-weight:400, $font-style:normal) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  font-style: $font-style;
+}
+
+@mixin border-radius-left($topLeft, $bottLeft) {
+  border-top-left-radius: $topLeft;
+  border-bottom-left-radius: $bottLeft;
+}
+
+@mixin border-radius-right($topRight, $bottRight) {
+  border-top-right-radius: $topRight;
+  border-bottom-right-radius: $bottRight;
+}
+
+@mixin sale-bkg-img() {
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin desktop {
+  @media (max-width: $desktop-width) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (max-width: $laptop-width) {
+    @content;
+  }
+}
+
+@mixin tables {
+  @media (max-width: $tables-width) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $mobile-widht) {
+    @content;
+  }
+}

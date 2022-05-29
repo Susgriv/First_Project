@@ -1,0 +1,16 @@
+.footer__wrapper {
+  display: flex; }
+
+.footer__logo {
+  margin-right: 15px; }
+
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 550px; }
+
+.footer__political {
+  text-decoration: underline; }
+
+/*# sourceMappingURL=footer.css.map */

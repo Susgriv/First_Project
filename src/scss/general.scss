@@ -1,0 +1,50 @@
+//visually-hidden
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+
+}
+
+.container {
+  //width: 72%;
+  //max-width: 1300px;
+  background-color: #d3ccc4;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+  //@media (max-width: $desktop-width) {
+  //  .container {
+  //    width: 92%;
+  //  }
+  //}
+  //@media (max-width: $laptop-width) {
+  //  .container {
+  //    width: 98%;
+  //  }
+  //}
+  //@media (max-width: $tables-width) {
+  //  .container {
+  //    width: 92%;
+  //  }
+  //}
+  //@media (max-width: $mobile-widht) {
+  //  .container {
+  //    width: 92%;
+  //  }
+  //}

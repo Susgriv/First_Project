@@ -1,0 +1,46 @@
+.direction {
+}
+
+.direction__title {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.direction-occupation__wrp {
+  padding-top: 20px;
+}
+
+.direction-occupation__list {
+  display: grid;
+  grid-template: 1fr /1fr 1fr 1fr 1fr;
+}
+
+.direction__item {
+  text-align: center;
+}
+
+.direction__container {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.direction-equipment__wrp {
+  padding-top: 20px;
+}
+
+.direction-equipment__list {
+  display: grid;
+  grid-template: 1fr /1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.direction-occupation__text {
+  text-align: center;
+}
+img {
+  max-width: 150px;
+  min-height: 200px;
+
+}

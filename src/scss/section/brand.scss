@@ -1,0 +1,23 @@
+.brand {
+  background: url("../img/bkg.jpg") no-repeat center;
+  background-size: 1600px auto;
+  height: 400px;
+}
+
+.brand__wrp {
+  margin-top: 50px;
+  max-width: 500px;
+  color: white;
+}
+
+.brand__title {
+  @include font(50px, 40px, 700);
+  text-transform: uppercase;
+}
+
+.brand__title__h4 {
+}
+
+.brand__text {
+
+}

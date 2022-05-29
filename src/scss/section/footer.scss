@@ -1,0 +1,36 @@
+.footer {
+}
+
+.footer__wrapper {
+ display: flex;
+  margin-top: 50px;
+}
+
+.footer__logo {
+  margin-right: 15px;
+
+}
+
+.footer__logo-svg {
+
+}
+.footer__inner {
+display: flex;
+  flex-direction: column;
+justify-content: center;
+  max-width: 500px;
+}
+
+.footer__copyright {
+}
+span {
+text-transform: uppercase;
+}
+
+.footer__text {
+
+}
+
+.footer__political {
+  text-decoration: underline;
+}
