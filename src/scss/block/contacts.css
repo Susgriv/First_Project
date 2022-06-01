@@ -1,0 +1,23 @@
+.contacts {
+  display: flex;
+  align-items: center; }
+
+.contacts__logo {
+  display: flex;
+  flex-direction: column; }
+
+.contacts__tel--svg {
+  width: 12px; }
+
+.contacts--tel {
+  display: flex;
+  flex-direction: column; }
+
+.tel {
+  text-decoration: none;
+  color: black; }
+
+.tel--bold {
+  font-weight: bold; }
+
+/*# sourceMappingURL=contacts.css.map */

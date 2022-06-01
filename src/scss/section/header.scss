@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-.header__container-logo {
+.header__svg {
   margin-right: 30px;
 }
 
@@ -38,37 +38,6 @@
   color: mediumvioletred;
 }
 
-.header__contacts {
-  display: flex;
-  align-items: center;
-}
-
-.header__contacts__logo {
-  display: flex;
-  flex-direction: column;
-}
-
-.header__tel--svg {
-  width: 12px;
-  //fill: blue;
-  //fill-opacity: 0.5;
-  //padding-bottom: 5px;
-}
-
-.header__contacts--tel {
-  display: flex;
-  flex-direction: column;
-}
-
-.header__tel {
-  text-decoration: none;
-  color: black;
-}
-
-
-.header__tel--bold {
-  font-weight: bold;
-}
 
 // ============================================== //
 //Burger
