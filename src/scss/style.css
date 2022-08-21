@@ -73,7 +73,7 @@ body {
   display: flex;
   align-items: center; }
 
-.header__container-logo {
+.header__svg {
   margin-right: 30px; }
 
 .header__container--text {
@@ -92,28 +92,6 @@ body {
 
 .header__link--red {
   color: mediumvioletred; }
-
-.header__contacts {
-  display: flex;
-  align-items: center; }
-
-.header__contacts__logo {
-  display: flex;
-  flex-direction: column; }
-
-.header__tel--svg {
-  width: 12px; }
-
-.header__contacts--tel {
-  display: flex;
-  flex-direction: column; }
-
-.header__tel {
-  text-decoration: none;
-  color: black; }
-
-.header__tel--bold {
-  font-weight: bold; }
 
 /*
 .icon-menu {
@@ -260,6 +238,28 @@ img {
 
 .design {
   margin-top: 20px; }
+
+.contacts {
+  display: flex;
+  align-items: center; }
+
+.contacts__logo {
+  display: flex;
+  flex-direction: column; }
+
+.contacts__tel--svg {
+  width: 12px; }
+
+.contacts--tel {
+  display: flex;
+  flex-direction: column; }
+
+.tel {
+  text-decoration: none;
+  color: black; }
+
+.tel--bold {
+  font-weight: bold; }
 
 .yandex__wrp {
   margin: 30px auto;
